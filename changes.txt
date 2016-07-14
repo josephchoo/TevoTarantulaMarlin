@@ -1,0 +1,24 @@
+Tarantula Owners Group COMMUNITY Firmware - v.0.1d
+
+Modified Marlin firmware for Taratula Prusa i3 version 2016 with small bed (no sensor)
+
+Changed:
+
+- Changed structure, commented out stock settings, renamed all to "TEVO" and add Custom settings in configuration.h
+- all custom settings are now findable via "TEVO" search term in configuration.h and custom ones can be added easy without loosing stock ones
+- Did Autotune PID on small bed (with glass) and hotend plus hardcoded in configuration.h
+- modified home position
+- renamed printer to Tarantula Prusa i3 on LCD
+- disabled autobed-leveling as no sensor installed
+- reversed Y direction (motor right/behind position)
+- E-steps calibration
+- reversed menu knob direction in pins.h (untested yet)
+- added custom acceleration values
+- activated PID for heatbed
+
+
+Missing:
+
+- X-steps calibration
+- Y-steps calibration
+- Z-steps calibration
